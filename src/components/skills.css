@@ -1,0 +1,39 @@
+.skill-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    height: 120px;
+    width: 100px;
+}
+
+.skill-image {
+    width: 50px;
+    height: 50px;
+    filter: grayscale(100%);
+}
+
+.skill-card h4 { 
+    color: black; 
+}
+
+.skill-card:hover h4 {
+    transform: translateY(10px)
+}
+
+.skill-card:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    box-shadow: 0 8px 16px rgba(239, 41, 107, 0.5);
+}
+
+.skill-card:hover img {
+    filter: none;
+    transform: scale(1.2);
+}
